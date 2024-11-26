@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1rem;
+
+}
+h3{
+    font-size: 1rem ;
+}
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(90deg, #a70146, #d6596e, #26b856);
+
+} 
+
+button{
+    font-size: 1.5rem;
+    padding: 2% 3%;
+    border-radius: 10px;
+    shape-outside: margin-box;
+    box-shadow: 2px 2px rgb(red, rgb(58, 27, 196), blue);
+    color: white;
+    background-color: rgb(128, 65, 118);
+}
+button:hover{
+    background-color: rgb(82, 3, 58);
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: rgba(184, 145, 145, 0.356);
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: darkred;
+    font-size: 2rem;
+
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+header a{
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+header a.hover{
+    color: black;
+}
+#principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: aliceblue;
+    background-image: 
+    linear-gradient(
+        0deg, 
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ),
+    url("imagenes/image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#mapas{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+
+
+}
+
+#mapas .contenedor_de_imagenes{
+    text-align: center;
+    padding: 200px;
+}
+#mapas p{
+    display: none ;
+}
+#mapas h2{
+    margin-top: 0;
+
+
+}
+#objetivos .informativos{
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+footer{
+    background-color: rgba(245, 245, 245, 0.397);
+}
